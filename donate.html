@@ -13,57 +13,26 @@
   <header>
     <div class="logo">Blood<span>Donate</span></div>
     <nav>
-        <ul>
-            <li><a href="index.html" class="btn-nav">Home</a></li>
-            <li><a href="about.html" class="btn-nav">About Us</a></li>
-          <li><a href="donate.html" class="btn-nav">Donate Blood</a></li>
-          <li><a href="request.html" class="btn-nav">Request Blood</a></li>
-          <li><a href="faq.html" class="btn-nav">FAQs</a></li>
-          <li><a href="contact.html" class="btn-nav">Contact Us</a></li>
-        </ul>
+      <ul>
+        <li><a href="index.html" class="btn-nav">Home</a></li>
+        <li><a href="about.html" class="btn-nav">About Us</a></li>
+        <li><a href="register.html" class="btn-nav">Register</a></li>
+        <li><a href="request-blood.html" class="btn-nav">Request Blood</a></li>
+      <li><a href="faq.html" class="btn-nav">FAQs</a></li>
+      <li><a href="contact.html" class="btn-nav">Contact Us</a></li>
+    </ul>
     </nav>
   </header>
 
   <main>
-    <section class="register-section">
-      <div class="register-container">
-        <h1>Register as a Donor</h1>
-        <p>Join our life-saving mission by registering as a blood donor. Fill out the form below to get started.</p>
-        <form class="register-form">
-          <div class="form-group">
-            <label for="name">Full Name</label>
-            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
-          </div>
-          <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="Enter your email" required>
-          </div>
-          <div class="form-group">
-            <label for="phone">Phone Number</label>
-            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
-          </div>
-          <div class="form-group">
-            <label for="blood-group">Blood Group</label>
-            <select id="blood-group" name="blood-group" required>
-              <option value="" disabled selected>Select your blood group</option>
-              <option value="A+">A+</option>
-              <option value="A-">A-</option>
-              <option value="B+">B+</option>
-              <option value="B-">B-</option>
-              <option value="O+">O+</option>
-              <option value="O-">O-</option>
-              <option value="AB+">AB+</option>
-              <option value="AB-">AB-</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label for="location">Location</label>
-            <input type="text" id="location" name="location" placeholder="Enter your location" required>
-          </div>
-          <button type="submit" class="btn-submit">Register Now</button>
-        </form>
-      </div>
-    </section>
+   <!-- Donate Now Section -->
+<section class="donate-now">
+  <h2>Make a Difference - Donate Now</h2>
+  <p>Your generous donation can save lives. Together, we can help those in need.</p>
+  
+  <a href="register.html" class="donate-btn">Donate Blood</a> <!-- Link to the donation page or form -->
+  <a href="https://example.com/monetary-donations" class="donate-btn donate-money">Donate Money</a> <!-- Link to monetary donation -->
+</section>
   </main>
   
   <!-- Footer -->
@@ -77,5 +46,6 @@
       </div>
     </div>
   </footer>
+  <script src="main.js"></script>
 </body>
 </html>

@@ -16,8 +16,8 @@
       <ul>
           <li><a href="index.html" class="btn-nav">Home</a></li>
           <li><a href="about.html" class="btn-nav">About Us</a></li>
-        <li><a href="donate.html" class="btn-nav">Donate Blood</a></li>
-        <li><a href="request.html" class="btn-nav">Request Blood</a></li>
+        <li><a href="register.html" class="btn-nav">Register</a></li>
+        <li><a href="request-blood.html" class="btn-nav">Request Blood</a></li>
         <li><a href="faq.html" class="btn-nav">FAQs</a></li>
         <li><a href="contact.html" class="btn-nav">Contact Us</a></li>
       </ul>
@@ -29,7 +29,7 @@
       <h1>Donate Blood, Save Lives</h1>
       <p>Your single act of kindness can save multiple lives.</p>
       <div class="buttons">
-        <a href="#donate" class="btn">Donate Now</a>
+        <a href="donate.html" class="btn">Donate Now</a>
         <a href="#request" class="btn secondary">Request Blood</a>
       </div>
     </div>
@@ -56,6 +56,26 @@
     <p>"Knowing I saved a life is the most rewarding feeling."</p>
   </section>
 
+  <!-- Donor List Section -->
+<!-- Donor List Section -->
+<section class="donor-list">
+    <h2>Registered Donors</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Phone</th>
+          <th>Blood Group</th>
+          <th>Location</th>
+        </tr>
+      </thead>
+      <tbody id="donor-table">
+        <!-- Donor data will be displayed here by JavaScript -->
+      </tbody>
+    </table>
+  </section>
+  
   
   <!-- Footer -->
   <footer>
@@ -68,5 +88,6 @@
       </div>
     </div>
   </footer>
+  <script src="main.js"></script>
 </body>
 </html>

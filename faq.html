@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blood Donation</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">Blood<span>Donate</span></div>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="btn-nav">Home</a></li>
+        <li><a href="about.html" class="btn-nav">About Us</a></li>
+        <li><a href="register.html" class="btn-nav">Register</a></li>
+        <li><a href="request-blood.html" class="btn-nav">Request Blood</a></li>
+      <li><a href="faq.html" class="btn-nav">FAQs</a></li>
+      <li><a href="contact.html" class="btn-nav">Contact Us</a></li>
+    </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Donate FAQs Section -->
+<section class="faq-section">
+  <h2>Frequently Asked Questions (FAQs)</h2>
+  <div class="faq-container">
+    <div class="faq-item">
+      <button class="faq-question" onclick="toggleAnswer(0)">What is blood donation?</button>
+      <div class="faq-answer">
+        <p>Blood donation is the process of voluntarily giving blood to help those in need, typically during surgeries, accidents, or medical treatments. Donated blood is used to save lives.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question" onclick="toggleAnswer(1)">Who can donate blood?</button>
+      <div class="faq-answer">
+        <p>Individuals who are healthy, between the ages of 18-65, weigh at least 50kg (110 lbs), and have no history of blood-borne diseases are eligible to donate blood. However, eligibility may vary based on local regulations.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question" onclick="toggleAnswer(2)">Is donating blood safe?</button>
+      <div class="faq-answer">
+        <p>Yes, donating blood is a safe procedure. It is conducted under sterile conditions, and only one pint of blood is collected, which the body quickly replenishes.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question" onclick="toggleAnswer(3)">How often can I donate blood?</button>
+      <div class="faq-answer">
+        <p>You can donate whole blood every 56 days (8 weeks). For platelet donations, it’s typically every 7 days, but you must wait at least 14 days between each donation.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question" onclick="toggleAnswer(4)">What should I do after donating blood?</button>
+      <div class="faq-answer">
+        <p>After donating blood, it’s important to rest for a few minutes, drink plenty of fluids, and have a healthy snack. Avoid strenuous activities for the rest of the day.</p>
+      </div>
+    </div>
+  </div>
+</section>
+  </main>
+  
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2024 BloodDonate. All rights reserved.</p>
+      <div class="social-media">
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+      </div>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
